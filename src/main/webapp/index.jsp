@@ -1,7 +1,8 @@
-<html> 
-    <body> 
-        <h2>Hello !</h2> 
-        <p>If you see this line in Github, that means your latest changes are getting pushed to your cloud repo :o</p> 
-    </body> 
-    </html>
+<html>
 
+<body>
+    <h2>Hi ! This is Sourav Web App !</h2>
+    <p>This is a test of my CI/CD pipeline </p>
+</body>
+
+</html>
