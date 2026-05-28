@@ -1,81 +1,52 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sourav Das | DevOps Challenge</title>
+    <title>Sourav Das</title>
 
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
         body {
+            margin: 0;
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
             background: linear-gradient(135deg, #0f172a, #1e293b);
-            color: #ffffff;
+            font-family: Arial, sans-serif;
+            color: white;
         }
 
-        .container {
-            width: 90%;
-            max-width: 700px;
-            padding: 50px;
+        .card {
+            background: rgba(255,255,255,0.08);
+            padding: 40px;
+            border-radius: 16px;
             text-align: center;
-            background: rgba(255, 255, 255, 0.08);
-            border-radius: 20px;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
         }
 
         h1 {
-            font-size: 3rem;
-            margin-bottom: 20px;
             color: #38bdf8;
+            margin-bottom: 20px;
         }
 
         p {
-            font-size: 1.2rem;
-            line-height: 1.8;
-            color: #e2e8f0;
+            font-size: 18px;
+            line-height: 1.6;
         }
 
         .highlight {
             color: #22c55e;
             font-weight: bold;
         }
-
-        .footer {
-            margin-top: 30px;
-            font-size: 0.95rem;
-            color: #94a3b8;
-        }
-
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 2.2rem;
-            }
-
-            p {
-                font-size: 1rem;
-            }
-
-            .container {
-                padding: 35px 25px;
-            }
-        }
     </style>
 </head>
 
 <body>
 
-<div class="container">
+<div class="card">
     <h1>Sourav Das</h1>
 
     <p>
@@ -83,10 +54,6 @@
         <span class="highlight">7 Day DevOps Challenge</span>
         with NextWork.
     </p>
-
-    <div class="footer">
-        Passionate about DevOps, Cloud Computing, and Modern Infrastructure.
-    </div>
 </div>
 
 </body>
