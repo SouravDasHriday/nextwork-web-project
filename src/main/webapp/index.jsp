@@ -53,8 +53,9 @@
         I have successfully completed the
         <span class="highlight">7 Day DevOps Challenge</span>
         with NextWork.
+        If you see this line, that means your latest changes are automatically deployed into production by CodePipeline! 
     </p>
-    <p>If you see this line, that means your latest changes are automatically deployed into production by CodePipeline! </p>
+    
 
 </div>
 
