@@ -1,5 +1,4 @@
 version: 0.2
-
 phases:
   install:
     runtime-versions:
@@ -21,4 +20,6 @@ phases:
 artifacts:
   files:
     - target/*.war
+    - appspec.yml
+    - scripts/**/*
   discard-paths: no
